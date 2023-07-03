@@ -1,0 +1,102 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+  }
+  
+  header {
+    background-color: #1c1c1c;
+    color: #e5dddd;
+    padding: 20px;
+    text-align: center;
+  }
+  
+  .hero {
+    background-image: url('back.jpg');
+    background-size: cover;
+    height: 600px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: #e5dddd;
+  }
+  
+  .hero h1 {
+    font-size: 48px;
+    margin-bottom: 20px;
+  }
+  
+  .btn {
+    background-color: #1c1c1c;
+    color: #fff;
+    padding: 12px 24px;
+    text-decoration: none;
+    border-radius: 4px;
+    font-size: 20px;
+  }
+  
+  .cta-section {
+    text-align: center;
+    padding: 40px;
+  }
+  
+  .cta-section h2 {
+    font-size: 36px;
+    margin-bottom: 20px;
+  }
+  
+  .cta-section p {
+font-size: 18px;
+color: #1c1c1c;
+margin-bottom: 40px;
+}
+
+.featured-shoes {
+display: flex;
+justify-content: center;
+align-items: flex-start;
+flex-wrap: wrap;
+padding: 40px;
+}
+
+.shoe {
+max-width: 300px;
+margin: 20px;
+padding: 20px;
+border: 1px solid #ddd;
+border-radius: 4px;
+text-align: center;
+}
+
+.shoe img {
+max-width: 100%;
+}
+
+.shoe h3 {
+font-size: 24px;
+margin-bottom: 10px;
+}
+
+.shoe p {
+font-size: 18px;
+color: #666;
+}
+
+.footer {
+background-color: #1c1c1c;
+color: #fff;
+padding: 20px;
+text-align: center;
+}
+
+.footer p {
+margin: 0;
+}
